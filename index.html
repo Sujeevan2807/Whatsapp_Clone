@@ -1,11 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whatsapp Clone</title>
+
+    <link rel="stylesheet" href="assets/css/output.css">
 </head>
-<body>
-    
+
+<body class="bg-green-300 p-10">
+    <section class="bg-white max-w-sm mx-auto">
+        <div class="px-3 py-5 flex text-white items-center justify-between bg-[#075E54] ">
+            <h4 class="font-semibold">WhatsApp</h4>
+            <div class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="m19.485 20.154l-6.262-6.262q-.75.639-1.725.989q-.975.35-1.96.35q-2.402 0-4.066-1.663q-1.664-1.664-1.664-4.065T5.47 5.436q1.663-1.667 4.064-1.667q2.402 0 4.068 1.664q1.666 1.664 1.666 4.067q0 1.042-.369 2.017q-.37.975-.97 1.668l6.262 6.261zM9.538 14.23q1.99 0 3.361-1.37q1.37-1.37 1.37-3.361q0-1.99-1.37-3.36q-1.37-1.37-3.36-1.37q-1.99 0-3.361 1.37q-1.37 1.37-1.37 3.36q0 1.99 1.37 3.36q1.37 1.37 3.36 1.37" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M12 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2" />
+                </svg>
+            </div>
+        </div>
+        <ul class="text-white px-3 py-2 flex justify-between items-center space-x-2 bg-[#075E54]">
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="w-6">
+                    <path fill="currentColor"
+                        d="M12 18q2.075 0 3.538-1.462Q17 15.075 17 13q0-2.075-1.462-3.538Q14.075 8 12 8Q9.925 8 8.463 9.462Q7 10.925 7 13q0 2.075 1.463 3.538Q9.925 18 12 18Zm0-2q-1.25 0-2.125-.875T9 13q0-1.25.875-2.125T12 10q1.25 0 2.125.875T15 13q0 1.25-.875 2.125T12 16Zm6-6q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8t-.712.287Q17 8.575 17 9t.288.712Q17.575 10 18 10ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L8.7 3.325q.15-.15.337-.238Q9.225 3 9.425 3h5.15q.2 0 .388.087q.187.088.337.238L16.85 5H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Z" />
+                </svg>
+            </li>
+            
+
+            <li class="flex items-center justify-between flex-1">
+                <div class="uppercase font-medium text-sm flex items-center space-x-1 relative">
+                    <span>Chats</span>
+                    <span
+                        class="bg-white p-0.5 rounded-full text-[#075e54] text-xs w-4 h-4 flex items-center justify-center ml-2">10</span>
+                    <div class="absolute right-1 top-8 h-1 w-full bg-white"></div>
+                    </div>
+                <div class="uppercase font-medium text-sm flex items-center">
+                    <span>Status</span>
+
+                </div>
+                <div class="uppercase font-medium text-sm flex items-center">
+                    <span>Calls</span>
+                   
+                </div>
+            </li>
+
+        </ul>
+
+        <div class="bg-white px-3 py-4 space-y-4">
+            <div class="flex space-x-3 items-center border-b-slate-400">
+                <div>
+                    <img src="https://ui-avatars.com/api/?name=Sujee+Bala&background=random&color=fff" alt="Sujeevan" class="rounded-full">
+                </div>
+                <div class="flex-1">
+                    <h4 class="font-semibold">Sujeevan</h4>
+                    <p class="text-gray-500">Hi, How are you?</p>
+                </div>
+                <div class="flex flex-col items-center py-2">
+                    <span class="text-green-600 font-semibold text-s">4.54pm</span>
+                    <span class="bg-green-500 h-6 w-6 text-white p-2 rounded-full items-center flex text-xs font-semibold ">2</span>
+                </div>
+            </div>
+
+            <div class="flex space-x-3 items-center">
+                <div>
+                    <img src="https://ui-avatars.com/api/?name=Dilshany+Christeena&background=random&color=fff" alt="Dilshany" class="rounded-full">
+                </div>
+                <div class="flex-1">
+                    <h4 class="font-semibold">Dilshany</h4>
+                    <p class="text-gray-500">Hi, How are you?</p>
+                </div>
+                <div class="flex flex-col items-center py-2">
+                    <span class="text-green-600 font-semibold text-s">4.50pm</span>
+                    <span class="bg-green-500 h-6 w-6 text-white p-2 rounded-full items-center flex text-xs font-semibold ">3</span>
+                </div>
+            </div>
+            <div class="flex space-x-3 items-center">
+                <div>
+                    <img src="https://ui-avatars.com/api/?name=Amma&background=random&color=fff" alt="Amma" class="rounded-full">
+                </div>
+                <div class="flex-1">
+                    <h4 class="font-semibold">Amma</h4>
+                    <p class="text-gray-500">Hi, How are you?</p>
+                </div>
+                <div class="flex flex-col items-center py-2">
+                    <span class="text-green-600 font-semibold text-s">4.54pm</span>
+                    <span class="bg-green-500 h-6 w-6 text-white p-2 rounded-full items-center flex text-xs font-semibold ">2</span>
+                </div>
+            </div>
+            <div class="flex space-x-3 items-center">
+                <div>
+                    <img src="https://ui-avatars.com/api/?name=Appa&background=random&color=fff" alt="Appa" class="rounded-full">
+                </div>
+                <div class="flex-1">
+                    <h4 class="font-semibold">Appa</h4>
+                    <p class="text-gray-500">Hi, How are you?</p>
+                </div>
+                <div class="flex flex-col items-center py-2">
+                    <span class="text-green-600 font-semibold text-s">4.54pm</span>
+                    <span class="bg-green-500 h-6 w-6 text-white p-2 rounded-full items-center flex text-xs font-semibold ">2</span>
+                </div>
+            </div>
+            <div class="flex space-x-3 items-center">
+                <div>
+                    <img src="https://ui-avatars.com/api/?name=Anna&background=random&color=fff" alt="Anna" class="rounded-full">
+                </div>
+                <div class="flex-1">
+                    <h4 class="font-semibold">Anna</h4>
+                    <p class="text-gray-500">Hi, How are you?</p>
+                </div>
+                <div class="flex flex-col items-center py-2">
+                    <span class="text-green-600 font-semibold text-s">4.54pm</span>
+                    <span class="bg-green-500 h-6 w-6 text-white p-2 rounded-full items-center flex text-xs font-semibold ">2</span>
+                </div>
+            </div>
+        </div>
+        
+    </section>
 </body>
+
 </html>
